@@ -1,28 +1,18 @@
 export interface Product {
     id: number;
     name: string;
-    size: string;
     price: number;
-    
 }
-export interface Dress {
+export interface Dress{
     id: number;
     name: string;
-    size: string;
     price: number;
-     
-}
-export interface Trousers {
+}export interface Trousers{
     id: number;
     name: string;
-    size: string;
     price: number;
-    
-}
-export interface Hat {
+}export interface Hat{
     id: number;
     name: string;
-    size: string;
     price: number;
-    
 }
