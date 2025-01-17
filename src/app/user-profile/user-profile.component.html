@@ -1,0 +1,27 @@
+<h2>User Profile</h2>
+<label for="username">Username: </label>
+<input type="text" [(ngModel)]="username" id="username" />
+<p 
+    class="myclass"
+    [ngClass]="{'highlight': isActive, 'disabled': !isActive}"
+    [ngStyle]="{'background-color': isActive ? 'green' : 'red'}"
+>
+    Your username is: {{ username }}
+</p>
+<button [disabled]="!isActive" (click)="incrementCounter()">Increment Counter</button>
+<p appHighlight 
+    [defaultColor]="'lightgray'" 
+    [highlightColor]="'green'"
+    *appRepeat="3"
+>
+    This is the user description.
+</p>
+<p>Formatted Phone Number: {{ phoneNumber | phone:'1' }}</p>
+
+<hr />
+
+<input [(ngModel)]="searchTerm" placeholder="Search for a fruit..." />
+
+<ul>
+    <li *ngFor="let item of items | filterItems:searchTerm">{{ item }}</li>
+</ul>
