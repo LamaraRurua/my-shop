@@ -7,16 +7,20 @@ import {Hat } from "./product.model";
 export interface CartItem {
     product: Product;
     quantity: number;
+    size: m;
 }
 export interface CartItem {
     product: Dress;
     quantity: number;
+    size: m;
 }
 export interface CartItem {
     product: Trousers;
     quantity: number;
+    size: m;
 }
 export interface CartItem {
     product: Hat;
     quantity: number;
+    size: m;
 }
