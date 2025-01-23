@@ -1,29 +1,102 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    body{
-      background-color: lightblue;
-    }
-    
-}body > header{background-color: lightgray;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  body{
+    background-color: lightblue;
+  }
   
+}body > header{background-color: lightgray;
+
 }
 .container {
-  max-width: 1340px;
-  margin: 0 auto;
-  padding: 0 10px; /* Added the unit for padding */
+max-width: 1340px;
+margin: 0 auto;
+padding: 0 10px; /* Added the unit for padding */
 }h1 {
-    font-family: "Ubuntu", sans-serif;
-  }.header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 18px;
-    padding-bottom: 18px;
-  }.nav-link {
-    color: yellow;
+  font-family: "Ubuntu", sans-serif;
+}.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}.nav-link {
+  color: yellow;
+;
+  font-family: "Ubuntu", sans-serif; /* Added quotes around the font name */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px;
+}
+
+body > header > container > div > nav-link > a.button{
+  text-decoration: none;
+  background-color: #DFAA5B;
+  padding: 15px 33px;
+  border-radius: 10px;
+  color: black;
+
+  font-family: "Ubuntu", sans-serif; 
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px;
+
+
+}
+
+  
+   
+
+body > header > container > div > nav-link{
+  color: #957554
+  ;
+    font-family: "Ubuntu", sans-serif;  
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px;
+
+}
+body > header > container > div > nav-link > a:nth-child(1){
+  color: #957554
+  ;
+    font-family: "Ubuntu", sans-serif; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px;
+
+
+}
+body > header > container > div > nav-link > a:nth-child(2){
+  color: #957554
+  ;
+    font-family: "Ubuntu", sans-serif;  
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px;
+
+
+}
+body > header > container > div > nav-link > a:nth-child(3){
+  color: #957554
   ;
     font-family: "Ubuntu", sans-serif; /* Added quotes around the font name */
     font-size: 24px;
@@ -32,237 +105,166 @@
     line-height: normal;
     text-decoration: none;
     padding: 10px;
-  }
 
-  body > header > container > div > nav-link > a.button{
-    text-decoration: none;
-    background-color: #DFAA5B;
-    padding: 15px 33px;
-    border-radius: 10px;
-    color: black;
+
+}
+
+
+ .first-section {
+  background-image: url("images/LR\ clothes\ Shop.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 80px;
+}.first-section .content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 50px;
+}.main-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFFFFF
+;
+}
+body > app-root > main > div > app-product-list > div:nth-child(1) > h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color:blue
+}
+body > app-root > main > div > app-product-list > div:nth-child(2) > h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color:blue
   
-    font-family: "Ubuntu", sans-serif; 
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-decoration: none;
-    padding: 10px;
-  
+}
 
-  }
-  
-    
-     
-  
-  body > header > container > div > nav-link{
-    color: #957554
-    ;
-      font-family: "Ubuntu", sans-serif;  
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      text-decoration: none;
-      padding: 10px;
+body > container > app-root > main > div > app-product-list > div:nth-child(1) > h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color:blue;
 
-  }
-  body > header > container > div > nav-link > a:nth-child(1){
-    color: #957554
-    ;
-      font-family: "Ubuntu", sans-serif; 
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      text-decoration: none;
-      padding: 10px;
+}
+body > container > app-root > main > div > app-product-list > div:nth-child(2) > h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color:blue;
 
+}
+body > container > app-root > main > div > app-product-list > div:nth-child(3) > h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color:blue;
 
-  }
-  body > header > container > div > nav-link > a:nth-child(2){
-    color: #957554
-    ;
-      font-family: "Ubuntu", sans-serif;  
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      text-decoration: none;
-      padding: 10px;
+}
+body > container > app-root > main > div > app-product-list > div:nth-child(4) > h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color:blue;
 
+}
+body > container > app-root > main > div > app-product-list > div:nth-child(5) > h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color:blue;
 
-  }
-  body > header > container > div > nav-link > a:nth-child(3){
-    color: #957554
-    ;
-      font-family: "Ubuntu", sans-serif; /* Added quotes around the font name */
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      text-decoration: none;
-      padding: 10px;
+}
+body > container > app-root > main > div > app-product-list > div:nth-child(6) > h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color:blue;
 
+}
+body > container > app-root > main > div > app-product-list > div:nth-child(1) > button{
+  color: black;
+  background-color: #DFAA5B
 
-  }
-  
+}
+body > container > app-root > main > div > app-product-list > div:nth-child(2) > button{
+  color: black;
+  background-color: #DFAA5B
 
-   .first-section {
-    background-image: url("images/LR\ clothes\ Shop.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 80px;
-  }.first-section .content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    gap: 50px;
-  }.main-title {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    color: #FFFFFF
-  ;
-  }
-  body > app-root > main > div > app-product-list > div:nth-child(1) > h3{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color:blue
-  }
-  body > app-root > main > div > app-product-list > div:nth-child(2) > h3{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color:blue
-    
-  }
-  
-  body > container > app-root > main > div > app-product-list > div:nth-child(1) > h3{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color:blue;
+}body > container > app-root > main > div > app-product-list > div:nth-child(3) > button{
+  color: black;
+  background-color: #DFAA5B
 
-  }
-  body > container > app-root > main > div > app-product-list > div:nth-child(2) > h3{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color:blue;
+}body > container > app-root > main > div > app-product-list > div:nth-child(4) > button{
+  color: black;
+  background-color: #DFAA5B
 
-  }
-  body > container > app-root > main > div > app-product-list > div:nth-child(3) > h3{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color:blue;
+}body > container > app-root > main > div > app-product-list > div:nth-child(5) > button{
+  color: black;
+  background-color: #DFAA5B
 
-  }
-  body > container > app-root > main > div > app-product-list > div:nth-child(4) > h3{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color:blue;
+}body > container > app-root > main > div > app-product-list > div:nth-child(6) > button{
+  color: black;
+  background-color: #DFAA5B;
 
-  }
-  body > container > app-root > main > div > app-product-list > div:nth-child(5) > h3{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color:blue;
+}
 
-  }
-  body > container > app-root > main > div > app-product-list > div:nth-child(6) > h3{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color:blue;
+body > footer > container > footer-flex > footer-nav.a{
+  color: #957554;
+  text-decoration:none;
+}
 
-  }
-  body > container > app-root > main > div > app-product-list > div:nth-child(1) > button{
-    color: black;
-    background-color: #DFAA5B
+body > footer > container > footer-flex > footer-nav >a {
+  color:black;
+  text-decoration: none;
+}
+body > footer > container > footer-flex{
+  display: flex;
+  justify-content: end;
+  padding-top: 18px;
+  padding-bottom: 18px;
 
-  }
-  body > container > app-root > main > div > app-product-list > div:nth-child(2) > button{
-    color: black;
-    background-color: #DFAA5B
-
-  }body > container > app-root > main > div > app-product-list > div:nth-child(3) > button{
-    color: black;
-    background-color: #DFAA5B
-
-  }body > container > app-root > main > div > app-product-list > div:nth-child(4) > button{
-    color: black;
-    background-color: #DFAA5B
-
-  }body > container > app-root > main > div > app-product-list > div:nth-child(5) > button{
-    color: black;
-    background-color: #DFAA5B
-
-  }body > container > app-root > main > div > app-product-list > div:nth-child(6) > button{
-    color: black;
-    background-color: #DFAA5B;
-
-  }
-
-  body > footer > container > footer-flex > footer-nav.a{
-    color: #957554;
-    text-decoration:none;
-  }
-
-  body > footer > container > footer-flex > footer-nav >a {
-    color:black;
-    text-decoration: none;
-  }
-  body > footer > container > footer-flex{
-    display: flex;
-    justify-content: end;
-    padding-top: 18px;
-    padding-bottom: 18px;
-
-  }
-  body > footer{
-    background-color: lightgray;
-  }
+}
+body > footer{
+  background-color: lightgray;
+}

@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'shopping-cart-app' title`, () => {
+  it(`should have the 'angular-forms' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('shopping-cart-app');
+    expect(app.title).toEqual('angular-forms');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, shopping-cart-app');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular-forms');
   });
 });

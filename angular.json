@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "shopping-cart-app": {
+    "angular-forms": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/shopping-cart-app",
+            "outputPath": "dist/angular-forms",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "shopping-cart-app:build:production"
+              "buildTarget": "angular-forms:build:production"
             },
             "development": {
-              "buildTarget": "shopping-cart-app:build:development"
+              "buildTarget": "angular-forms:build:development"
             }
           },
           "defaultConfiguration": "development"

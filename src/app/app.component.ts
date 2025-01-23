@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ProductListComponent } from './components/product-list/product-list.component';
-import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { BasicTemplateFormComponent } from './basic-template-form/basic-template-form.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ProductListComponent, ShoppingCartComponent],
+  imports: [RouterOutlet, BasicTemplateFormComponent, ReactiveFormComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'shopping-cart-app';
+  title = 'angular-forms';
 }
