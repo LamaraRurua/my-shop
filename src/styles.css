@@ -3,10 +3,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    body{
+      background-color: lightblue;
+    }
+    
+}body > header{background-color: lightgray;
+  
 }
-  header{
-  background-color: lightblue;
-}.container {
+.container {
   max-width: 1340px;
   margin: 0 auto;
   padding: 0 10px; /* Added the unit for padding */
@@ -19,7 +23,7 @@
     padding-top: 18px;
     padding-bottom: 18px;
   }.nav-link {
-    color: #957554
+    color: yellow;
   ;
     font-family: "Ubuntu", sans-serif; /* Added quotes around the font name */
     font-size: 24px;
@@ -29,10 +33,32 @@
     text-decoration: none;
     padding: 10px;
   }
+
+  body > header > container > div > nav-link > a.button{
+    text-decoration: none;
+    background-color: #DFAA5B;
+    padding: 15px 33px;
+    border-radius: 10px;
+    color: black;
+  
+    font-family: "Ubuntu", sans-serif; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px;
+  
+
+  }
+  
+    
+     
+  
   body > header > container > div > nav-link{
     color: #957554
     ;
-      font-family: "Ubuntu", sans-serif; /* Added quotes around the font name */
+      font-family: "Ubuntu", sans-serif;  
       font-size: 24px;
       font-style: normal;
       font-weight: 500;
@@ -44,7 +70,7 @@
   body > header > container > div > nav-link > a:nth-child(1){
     color: #957554
     ;
-      font-family: "Ubuntu", sans-serif; /* Added quotes around the font name */
+      font-family: "Ubuntu", sans-serif; 
       font-size: 24px;
       font-style: normal;
       font-weight: 500;
@@ -57,7 +83,7 @@
   body > header > container > div > nav-link > a:nth-child(2){
     color: #957554
     ;
-      font-family: "Ubuntu", sans-serif; /* Added quotes around the font name */
+      font-family: "Ubuntu", sans-serif;  
       font-size: 24px;
       font-style: normal;
       font-weight: 500;
@@ -127,7 +153,8 @@
     color:blue
     
   }
-  body > app-root > main > div > app-product-list > div:nth-child(3) > h3{
+  
+  body > container > app-root > main > div > app-product-list > div:nth-child(1) > h3{
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
@@ -135,9 +162,10 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color:blue
+    color:blue;
+
   }
-  body > app-root > main > div > app-product-list > div:nth-child(4) > h3{
+  body > container > app-root > main > div > app-product-list > div:nth-child(2) > h3{
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
@@ -145,9 +173,10 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color:blue
+    color:blue;
+
   }
-  body > app-root > main > div > app-product-list > div:nth-child(5) > h3{
+  body > container > app-root > main > div > app-product-list > div:nth-child(3) > h3{
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
@@ -155,9 +184,10 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color:blue
+    color:blue;
+
   }
-  body > app-root > main > div > app-product-list > div:nth-child(6) > h3{
+  body > container > app-root > main > div > app-product-list > div:nth-child(4) > h3{
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
@@ -165,30 +195,56 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color:blue
+    color:blue;
+
   }
-  body > app-root > main > div > app-product-list > div:nth-child(1) > button{
+  body > container > app-root > main > div > app-product-list > div:nth-child(5) > h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color:blue;
+
+  }
+  body > container > app-root > main > div > app-product-list > div:nth-child(6) > h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color:blue;
+
+  }
+  body > container > app-root > main > div > app-product-list > div:nth-child(1) > button{
     color: black;
     background-color: #DFAA5B
+
   }
-  body > app-root > main > div > app-product-list > div:nth-child(2) > button{
+  body > container > app-root > main > div > app-product-list > div:nth-child(2) > button{
     color: black;
     background-color: #DFAA5B
-  }
-  body > app-root > main > div > app-product-list > div:nth-child(3) > button{
+
+  }body > container > app-root > main > div > app-product-list > div:nth-child(3) > button{
     color: black;
     background-color: #DFAA5B
-  }
-  body > app-root > main > div > app-product-list > div:nth-child(4) > button{
+
+  }body > container > app-root > main > div > app-product-list > div:nth-child(4) > button{
     color: black;
     background-color: #DFAA5B
-  }
-  body > app-root > main > div > app-product-list > div:nth-child(5) > button{
+
+  }body > container > app-root > main > div > app-product-list > div:nth-child(5) > button{
     color: black;
     background-color: #DFAA5B
-  }
-  body > app-root > main > div > app-product-list > div:nth-child(6) > button{
+
+  }body > container > app-root > main > div > app-product-list > div:nth-child(6) > button{
     color: black;
     background-color: #DFAA5B
+
   }
   
+ 
