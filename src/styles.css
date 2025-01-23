@@ -55,8 +55,25 @@ body > header > container > div > nav-link > a.button{
 
 
 }
+.dropdown{
+  padding: 10px;
+}
+body > header > container > div > nav-link > div:nth-child(4) > form > input[type=submit]:nth-child(9)
+{
+  text-decoration: none;
+  background-color: gray;
+  padding: 15px 23px;
+  border-radius: 10px;
+  color: black;
 
-  
+  font-family: "Ubuntu", sans-serif; 
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px;
+}
 .navbar a:hover, .dropdown:hover .dropdown {
   background-color: red;
 }
