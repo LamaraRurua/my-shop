@@ -1,7 +1,7 @@
 export interface Product {
     id: number;
     name: string;
-    price: number;
+    price: number;}
     export interface Dress{
     id: number;
     name: string;

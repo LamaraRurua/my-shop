@@ -57,7 +57,35 @@ body > header > container > div > nav-link > a.button{
 }
 
   
-   
+.navbar a:hover, .dropdown:hover .dropdown {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #622323;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 body > header > container > div > nav-link{
   color: #957554
@@ -83,6 +111,7 @@ body > header > container > div > nav-link > a:nth-child(1){
     padding: 10px;
 
 
+    
 }
 body > header > container > div > nav-link > a:nth-child(2){
   color: #957554
@@ -93,10 +122,23 @@ body > header > container > div > nav-link > a:nth-child(2){
     font-weight: 500;
     line-height: normal;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px;}
+    body > header > container > div > nav-link > button{
+      text-decoration: none;
+  background-color: #DFAA5B
+;
+  padding: 15px 33px;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+    }
 
-
-}
+    
 body > header > container > div > nav-link > a:nth-child(3){
   color: #957554
   ;
@@ -108,9 +150,22 @@ body > header > container > div > nav-link > a:nth-child(3){
     text-decoration: none;
     padding: 10px;
 
-
 }
 
+body > header > container > div > nav-link > div > button{
+  text-decoration: none;
+  background-color: #DFAA5B
+;
+  padding: 15px 33px;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
 
  .first-section {
   background-image: url("images/LR\ clothes\ Shop.jpg");
