@@ -4,8 +4,7 @@ export interface CartItem {
     product: Product;
     quantity: number;
 }
-
-import { Dress } from "./product.model";
+mport { Dress } from "./product.model";
 
 export interface CartItem {
     product: Dress;
@@ -24,4 +23,3 @@ import { Hat } from "./product.model";
 export interface CartItem {
     product: Hat;
     quantity: number;
-}

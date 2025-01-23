@@ -2,9 +2,7 @@ export interface Product {
     id: number;
     name: string;
     price: number;
-    
-}
-export interface Dress{
+    export interface Dress{
     id: number;
     name: string;
     price: number;
