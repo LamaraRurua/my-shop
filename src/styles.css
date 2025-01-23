@@ -243,8 +243,26 @@
 
   }body > container > app-root > main > div > app-product-list > div:nth-child(6) > button{
     color: black;
-    background-color: #DFAA5B
+    background-color: #DFAA5B;
 
   }
-  
- 
+
+  body > footer > container > footer-flex > footer-nav.a{
+    color: #957554;
+    text-decoration:none;
+  }
+
+  body > footer > container > footer-flex > footer-nav >a {
+    color:black;
+    text-decoration: none;
+  }
+  body > footer > container > footer-flex{
+    display: flex;
+    justify-content: end;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+  }
+  body > footer{
+    background-color: lightgray;
+  }
